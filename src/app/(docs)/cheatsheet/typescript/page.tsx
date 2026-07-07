@@ -74,7 +74,7 @@ const item: Product = {
         code={`type Status = "idle" | "loading" | "success" | "error";
 
 function printStatus(status: Status) {
-  console.log(`Current status: ${status}`);
+  <CodeBlock>{`console.log(\`Current status: \${status}\`);`}</CodeBlock>
 }
 
 printStatus("success"); // Valid
