@@ -79,7 +79,6 @@ function printStatus(status: Status) {
 
 printStatus("success"); // Valid
 // printStatus("failed"); // Error`}
-`}
 />
       
       <div className="mt-4">
