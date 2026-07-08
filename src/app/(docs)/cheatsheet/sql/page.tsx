@@ -55,7 +55,7 @@ LIMIT 10;`}
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-12">
         <Callout type="warning" title="Common Mistakes">
-          Urutan penulisan WHERE setelah ORDER BY (sintaks akan error). Urutan harus: SELECT -> FROM -> WHERE -> ORDER BY -> LIMIT.
+          Urutan penulisan WHERE setelah ORDER BY (sintaks akan error). Urutan harus: SELECT -&gt; FROM -&gt; WHERE -&gt; ORDER BY -&gt; LIMIT.
         </Callout>
         <Callout type="success" title="Tips Menghafal">
           Hafalkan akronim SF W O L (Select From Where Order Limit).
