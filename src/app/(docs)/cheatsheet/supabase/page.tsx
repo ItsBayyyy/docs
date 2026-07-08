@@ -62,8 +62,8 @@ export default function SupabaseCheatsheetPage() {
           Lupa meng-handle object `error` dari response supabase yang membuat aplikasi crash saat offline.
         </Callout>
         <Callout type="success" title="Tips Menghafal">
-          Response Supabase selalu mengembalikan `{ data, error }`.
-        </Callout>
+  {"Response Supabase selalu mengembalikan `{ data, error }`."}
+</Callout>
       </div>
 
       <h2>Insert Data</h2>
