@@ -69,17 +69,16 @@ const item: Product = {
       <h2>Union & Types</h2>
       <p>Menentukan tipe variabel yang bisa bernilai lebih dari satu jenis.</p>
       
-      <CodeBlock 
-        lang="typescript"
-        code={`type Status = "idle" | "loading" | "success" | "error";
+      <CodeBlock>
+{`type Status = "success" | "error" | "loading";
 
 function printStatus(status: Status) {
-  <CodeBlock>{`console.log(\`Current status: \${status}\`);`}</CodeBlock>
+  console.log(\`Current status: \${status}\`);
 }
 
 printStatus("success"); // Valid
 // printStatus("failed"); // Error`}
-      />
+      </CodeBlock>
       
       <div className="mt-4">
         <strong>Parameter & Penjelasan:</strong>
