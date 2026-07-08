@@ -87,8 +87,8 @@ export default function Nav() {
           Menggunakan tag `<code>&lt;a&gt;</code>` biasa yang menyebabkan full page reload.
         </Callout>
         <Callout type="success" title="Tips Menghafal">
-          Selalu gunakan `<Link>` untuk navigasi internal.
-        </Callout>
+  Selalu gunakan <code>&lt;Link&gt;</code> untuk navigasi internal.
+</Callout>
       </div>
 
 
