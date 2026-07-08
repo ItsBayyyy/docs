@@ -34,7 +34,7 @@ useEffect(() => { /* side effect */ }, [deps])`}
       <p>Hook untuk menyimpan state lokal komponen.</p>
       
       <CodeBlock 
-        lang="react"
+        lang="tsx"
         code={`import { useState } from 'react';
 
 export default function Counter() {
@@ -67,7 +67,7 @@ export default function Counter() {
       <p>Hook untuk menangani efek samping (side effects) seperti fetch data atau DOM manipulation.</p>
       
       <CodeBlock 
-        lang="react"
+        lang="tsx"
         code={`import { useEffect, useState } from 'react';
 
 export default function DataFetcher() {
