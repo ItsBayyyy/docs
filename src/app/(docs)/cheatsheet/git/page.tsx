@@ -35,7 +35,7 @@ git push origin main`}
       <p>Alur standar menyimpan perubahan.</p>
       
       <CodeBlock 
-        lang="git"
+        lang="bash"
         code={`# Menambahkan semua perubahan
 git add .
 
@@ -65,7 +65,7 @@ git push origin main`}
       <p>Bekerja di cabang terpisah.</p>
       
       <CodeBlock 
-        lang="git"
+        lang="bash"
         code={`# Membuat dan langsung pindah ke branch baru
 git checkout -b fitur-baru
 
