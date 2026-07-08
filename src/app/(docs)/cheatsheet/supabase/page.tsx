@@ -93,7 +93,7 @@ export default function SupabaseCheatsheetPage() {
           Lupa menggunakan `.select()` di akhir `.insert()` padahal butuh ID dari baris yang baru dibuat.
         </Callout>
         <Callout type="success" title="Tips Menghafal">
-          Insert butuh array `[{...}]`.
+          Insert butuh array <code>[{"{...}"}]</code>.
         </Callout>
       </div>
 
