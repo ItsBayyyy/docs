@@ -84,7 +84,7 @@ export default function Nav() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-12">
         <Callout type="warning" title="Common Mistakes">
-          Menggunakan tag `<a>` biasa yang menyebabkan full page reload.
+          Menggunakan tag `<code>&lt;a&gt;</code>` biasa yang menyebabkan full page reload.
         </Callout>
         <Callout type="success" title="Tips Menghafal">
           Selalu gunakan `<Link>` untuk navigasi internal.
